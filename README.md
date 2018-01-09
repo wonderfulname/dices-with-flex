@@ -1,4 +1,5 @@
-##这是学习Flex的练习和记录
+##这是学习Flex的练习和记录##
+
 ![dices](dices.png)
 
 **Flex container 的属性**
