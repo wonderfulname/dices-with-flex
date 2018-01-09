@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body {min-height: 100vh;}
+		header{height: 50px; background-color: #add;}
+		footer{height: 50px; background-color: #add;}
+		.content{
+			display: flex;
+			height: 100vh;
+			
+		}
+		aside{width: 120px;
+			background-color: #444;
+			order: 1;
+		} 
+		main{
+			background-color: red;
+			/*height: 400px;*/
+			flex: 1;
+			order: 2;
+		}
+		nav{width: 100px;background-color: green;order: 3}
+
+		@media all and (max-width: 600px) {
+			.content {flex-direction: column;
+				/*align-items: stretch;*/}
+			nav, aside {height: 50px; width: auto;}
+			nav, aside, main {order: 0;}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		
+	</header>
+	<div class="content">
+		<main></main>
+		<aside></aside>
+		<nav></nav>
+	</div>
+	<footer></footer>
+</body>
+</html>
