@@ -27,7 +27,7 @@ align-self | 自身的对齐方式
 
 align-self 定义单个弹性项目在侧轴上应当如何对齐,会覆盖align-items的设定
 
-[饥人谷Flex](https://jirengu.com/app/watch/1412/1?vsum=140)
+
 
 [Flex布局教程--阮一峰](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
 
